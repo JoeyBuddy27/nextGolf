@@ -22,6 +22,7 @@ const RowItem = (props) => (
     <div>
 <p className="fromText">from</p>
 <h3 className="priceText">£{props.price}<span class="ppText">pp</span></h3>
+<p>{props.info}</p>
 </div>
 
 <div>

@@ -75,10 +75,10 @@ export default function Home() {
 						nights={content.lead_product.nights} 
 						rounds={content.lead_product.rounds}
 						bookBadge = {content.lead_product.badge}
-						starLength={4}
 						price={content.lead_product.price} 
+						starLength={content.data[0].venue_information.official_star_rating}
 						 />
-						// Can't seem to extract star rating data with content.data.venue_information.official_star_rating
+					
 				)}	
 				</Grid>
 				</>
